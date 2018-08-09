@@ -17,7 +17,7 @@ and open the template in the editor.
         <header>
             <h1>About AdventureDem0</h1>
             <figure id="darkmal">
-                <img src="adventure_demo/images/DarkMaledictorPixelLarge.png" alt="" onclick="exterminate('darkmal')"
+                <img src="/adventure_demo/images/DarkMaledictorPixelLarge.png" alt="" onclick="exterminate('darkmal')"
                      onmouseover="extreme('darkmal')" onmouseout="unExtreme('darkmal')"/>
             <figcaption>MWUAHAHA</figcaption>
             </figure>
@@ -31,7 +31,7 @@ and open the template in the editor.
             <a href="/adventure_demo/create-account.php"> Create A New Account</a>
             <br>
             <figure id="lucio">
-            <img src="adventure_demo/images/CantStopWontStopLarge.png" alt="" width="150px"
+            <img src="/adventure_demo/images/CantStopWontStopLarge.png" alt="" width="150px"
                  onclick="exterminate('lucio')" 
                  onmouseover="extreme('lucio')" onmouseout="unExtreme('lucio')"/>
             <figcaption> Can't Stop Won't Stop!</figcaption>
