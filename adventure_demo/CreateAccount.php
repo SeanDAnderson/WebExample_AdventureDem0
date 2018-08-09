@@ -23,7 +23,8 @@ $passwordConf = $_POST["confpasswordFld"];
     $dbname = "adventuredem0";
     $username = "root";
     $password = "admin";
-    try{
+    
+      try{
         $connection = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
         $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     } catch (Exception $ex) {
@@ -50,7 +51,8 @@ $passwordConf = $_POST["confpasswordFld"];
 if ($user->validate() && ($user->password === $passwordConf)){
     //TODO: new account storage
     //transition to home page
-    insertUser($user->name_first, $user->name_last, $user->email, $user->username, $user->password);
+    //SQL functionality disabled for demonstration purposes.
+    //insertUser($user->name_first, $user->name_last, $user->email, $user->username, $user->password);
     header('Location: index.php');
 }
 else{

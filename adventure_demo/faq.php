@@ -22,9 +22,9 @@ and open the template in the editor.
         
         <nav>
             <a href="index.php"> About </a><br>
-            <a href="/khadgar-resume.php"> Khadgar's Resume</a><br>
-            <a href="/faq.php"> FAQ </a><br>
-            <a href="/create-account.php"> Create A New Account</a>
+            <a href="khadgar-resume.php"> Khadgar's Resume</a><br>
+            <a href="faq.php"> FAQ </a><br>
+            <a href="create-account.php"> Create A New Account</a>
             <br>
             <figure id="lucio">
             <img src="images/CantStopWontStopLarge.png" alt="" width="150px"

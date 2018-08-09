@@ -6,9 +6,9 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="/adventure_demo/css/styles.css" rel="stylesheet" type="text/css">
         <meta charset="UTF-8">
-        <script src="js/scripts.js"></script>
+        <script src="/adventure_demo/js/scripts.js"></script>
         <title>AdventureDem0</title>
     </head>
     <body>
@@ -17,7 +17,7 @@ and open the template in the editor.
         <header>
             <h1>About AdventureDem0</h1>
             <figure id="darkmal">
-                <img src="images/DarkMaledictorPixelLarge.png" alt="" onclick="exterminate('darkmal')"
+                <img src="adventure_demo/images/DarkMaledictorPixelLarge.png" alt="" onclick="exterminate('darkmal')"
                      onmouseover="extreme('darkmal')" onmouseout="unExtreme('darkmal')"/>
             <figcaption>MWUAHAHA</figcaption>
             </figure>
@@ -25,13 +25,13 @@ and open the template in the editor.
 
 
         <nav>
-            <a href="index.php"> About </a><br>
-            <a href="/khadgar-resume.php"> Khadgar's Resume</a><br>
-            <a href="/faq.php"> FAQ </a><br>
-            <a href="/create-account.php"> Create A New Account</a>
+            <a href="/adventure_demo/index.php"> About </a><br>
+            <a href="/adventure_demo/khadgar-resume.php"> Khadgar's Resume</a><br>
+            <a href="/adventure_demo/faq.php"> FAQ </a><br>
+            <a href="/adventure_demo/create-account.php"> Create A New Account</a>
             <br>
             <figure id="lucio">
-            <img src="images/CantStopWontStopLarge.png" alt="" width="150px"
+            <img src="adventure_demo/images/CantStopWontStopLarge.png" alt="" width="150px"
                  onclick="exterminate('lucio')" 
                  onmouseover="extreme('lucio')" onmouseout="unExtreme('lucio')"/>
             <figcaption> Can't Stop Won't Stop!</figcaption>
@@ -74,7 +74,7 @@ and open the template in the editor.
             <section>
                 <h3>The AdventureDem0 team:</h3>
 
-                <a href="/khadgar-resume.php">Learn more about a wizard who may or may not 
+                <a href="khadgar-resume.php">Learn more about a wizard who may or may not 
                     be associated with AdventureDem0</a>
             </section>
         </main>
